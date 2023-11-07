@@ -1,0 +1,1 @@
+In Git, a branch is an independent line of development. It allows you to work on different features or fixes at the same time without interfering with each other. Each branch has its own commit history, files, and directories.
