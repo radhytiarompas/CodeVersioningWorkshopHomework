@@ -1,0 +1,30 @@
+Git Workshop Personal Notes
+Introduction
+Git is a distributed version control system used for tracking changes in files and collaborating on software projects.
+It allows multiple developers to work on the same project simultaneously without overwriting each other's changes.
+Git helps in managing different versions of a project, rollback to previous states, and collaborate with teammates efficiently.
+Basic Concepts
+Repository: A repository or repo is a collection of files and directories that make up a project.
+Commit: A commit is a snapshot of the current state of your files in the repository. It represents a specific version of your project.
+Branch: A branch is an independent line of development. It allows you to work on different features or fixes separately.
+Merge: Merging combines changes from different branches into a single branch to integrate the changes made by multiple developers.
+Remote: A remote repository is a version of your project that is hosted on a server or a different machine. It allows for collaboration and synchronization between team members.
+Git Commands
+git init : Initializes a new Git repository in your current working directory.
+git add <file> : Stages a file or directory for the next commit.
+git commit -m "Commit message" : Creates a new commit with the changes you have staged.
+git status : Shows the current state of your repository, including modified files and staged changes.
+git log : Displays the commit history of your repository.
+git branch : Lists all the branches in your repository and highlights the current branch.
+git branch <branch-name> : Creates a new branch.
+git checkout <branch-name> : Switches to a different branch.
+git merge <branch-name> : Merges the changes from the specified branch into the current branch.
+git remote add origin <remote-url> : Associates your local repository with a remote repository.
+git push origin <branch-name> : Pushes your local branch and commits to the remote repository.
+git pull origin <branch-name> : Retrieves and merges the latest changes from the remote repository.
+Best Practices
+Commit frequently and write clear commit messages to track changes effectively.
+Use branches to work on features or bug fixes separately and merge them later.
+Before merging, pull the latest changes from the remote repository to avoid conflicts.
+Review code changes and use tools like pull requests for effective collaboration.
+When encountering conflicts, carefully resolve them, test the code, and ensure it works as expected.
