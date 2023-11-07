@@ -2,5 +2,3 @@ In Git, a branch is an independent line of development. It allows you to work on
 When you create a branch, you make a copy of the original branch (often called the master branch) and continue your work on the new branch. This way, you can experiment, make changes, and commit them without affecting the original code.
 You can create a new branch using the command git branch <branch-name> . For example, git branch feature-xyz would create a new branch named "feature-xyz".
 To switch to a different branch, you can use git checkout <branch-name> . It allows you to change your working directory and start making changes on the desired branch.
-
-catatan git branch
