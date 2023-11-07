@@ -1,3 +1,6 @@
-Git merge
 Once you have made changes and committed them to a branch, you may want to combine the changes from one branch into another branch. This is where git merge comes into play.
 The git merge command allows you to merge the changes from one branch into another.
+It takes the contents of a source branch and integrates them with the target branch. By merging, you can bring together the changes made on different branches into a single branch.
+When you run git merge <branch-name> , Git will attempt to merge the specified branch ("branch-name") into the current branch. If there are no conflicts between the branches, Git will automatically apply the changes and create a new commit with the merged code.
+However, if there are conflicts, Git will pause the merge process and ask you to resolve the conflicts manually. Once conflicts are resolved, you can continue with the merge process by adding the resolved files and committing the merge.
+It's important to mention that merging is a common practice when working with multiple developers on a project. It allows everyone to work on separate branches and then merge their changes together.
