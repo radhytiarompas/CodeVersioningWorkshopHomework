@@ -1,0 +1,3 @@
+Git merge
+Once you have made changes and committed them to a branch, you may want to combine the changes from one branch into another branch. This is where git merge comes into play.
+The git merge command allows you to merge the changes from one branch into another.
